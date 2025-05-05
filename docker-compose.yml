@@ -8,6 +8,7 @@ services:
         working_dir: /var/www/
         volumes:
             - ./:/var/www
+            - ./uploads:/var/www/uploads
         depends_on:
             - redis
         networks:
@@ -22,6 +23,7 @@ services:
         volumes:
             - ./:/var/www
             - ./docker/nginx/:/etc/nginx/conf.d/
+            - ./uploads:/var/www/uploads
         networks:
             - laravel
 
