@@ -1,0 +1,17 @@
+[90m= [39m[34;4mApp\Models\User[39;24m {#6619
+    [34mid[39m: [35m1[39m,
+    [34mname[39m: "[32mBoss[39m",
+    [34memail[39m: "[32mprjmoraes@icloud.com[39m",
+    [34memail_verified_at[39m: [36mnull[39m,
+    #[33mpassword[39m: "[32m$2y$12$T16aneUywyKcSz6QUywVE.zuRa80D/Ezl8QK7i1YMxRznaTrxxq6i[39m",
+    #[33mtwo_factor_secret[39m: [36mnull[39m,
+    #[33mtwo_factor_recovery_codes[39m: [36mnull[39m,
+    [34mtwo_factor_confirmed_at[39m: [36mnull[39m,
+    #[33mremember_token[39m: [36mnull[39m,
+    [34mcurrent_team_id[39m: [36mnull[39m,
+    [34mprofile_photo_path[39m: "[32mprofile-photos/S73u3Kzx686O3x5EAp7xPrVUuviFksGQn8QdEnOM.png[39m",
+    [34mcreated_at[39m: "[32m2025-05-02 17:58:20[39m",
+    [34mupdated_at[39m: "[32m2025-05-05 18:51:20[39m",
+    +[1mprofile_photo_url[22m: "[32mhttp://localhost:8000/storage/profile-photos/S73u3Kzx686O3x5EAp7xPrVUuviFksGQn8QdEnOM.png[39m",
+  }
+

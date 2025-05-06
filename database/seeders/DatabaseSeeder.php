@@ -21,5 +21,6 @@ class DatabaseSeeder extends Seeder
         //$this->call(BlocoSeeder::class);
         //$this->call(RegiaoSeeder::class);
         //$this->call(IgrejaSeeder::class);
+        //$this->call(RolePermissionSeeder::class);
     }
 }
