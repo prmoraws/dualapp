@@ -1,5 +1,10 @@
 import './bootstrap';
 import Alpine from 'alpinejs';
+import focus from '@alpinejs/focus';
 
-window.Alpine = Alpine;
-Alpine.start();
+// Inicialização segura com verificação
+if (!window.Alpine) {
+    window.Alpine = Alpine;
+    Alpine.plugin(focus); // Adicione seus plugins aqui
+    Alpine.start();
+}
