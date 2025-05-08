@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Páginas estáticas principais -->
+    <url>
+        <loc>https://moraw.ct.ws/</loc>
+        <lastmod>{{ now()->format('Y-m-d') }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://moraw.ct.ws/login</loc>
+        <lastmod>{{ now()->format('Y-m-d') }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://moraw.ct.ws/register</loc>
+        <lastmod>{{ now()->format('Y-m-d') }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Páginas dinâmicas (exemplo: posts ou conteúdo do banco de dados) -->
+    @if(isset($posts) <!-- Se seu projeto tiver posts/blog -->
+    @foreach($posts as $post)
+    <url>
+        <loc>https://moraw.ct.ws/posts/{{ $post->slug }}</loc>
+        <lastmod>{{ $post->updated_at->format('Y-m-d') }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    @endforeach
+    @endif
+
+    <!-- Páginas de perfil (se aplicável) -->
+    <url>
+        <loc>https://moraw.ct.ws/profile</loc>
+        <lastmod>{{ now()->format('Y-m-d') }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+</urlset>
