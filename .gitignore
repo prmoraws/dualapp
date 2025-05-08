@@ -13,10 +13,12 @@
 .phpactor.json
 .phpunit.result.cache
 .docker
+.github
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+clear.php
 /auth.json
 /.fleet
 /.idea

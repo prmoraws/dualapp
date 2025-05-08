@@ -21,4 +21,9 @@ export default {
     },
 
     plugins: [forms, typography],
+    build: {
+        rollupOptions: {
+            external: ['alpinejs', '@alpinejs/focus']
+        }
+    }
 };

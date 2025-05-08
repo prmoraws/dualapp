@@ -47,7 +47,7 @@ Route::middleware([
     // Rota de dashboard
     Route::get('/dashboard', function () {
         return view('dashboard');
-    })->middleware('permission:view dashboard')->name('dashboard');
+    })->name('dashboard');
 
     // Rota de documentação
     Route::get('/documentacao', function () {

@@ -10,7 +10,7 @@
     <h1 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6">Dashboard ADM</h1>
 
     <!-- Botões de Ação e Filtros -->
-    <div class="flex flex-col sm:flex-row justify-between mb-6 space-y-4 sm:space-y-0 sm:space-x-4">
+    <div class="flex flex-col sm:flex-row justify-between ml-1 mb-6 space-y-4 sm:space-y-0 sm:space-x-4">
         <div class="flex space-x-4">
             <button wire:click="exportData" class="bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-indigo-700 transition">
                 Exportar Dados
